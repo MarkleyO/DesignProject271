@@ -1,3 +1,4 @@
+//reset should be voltage low - neg edge
 module shiftregister #(parameter N = 8)
 							 (input  logic 		  clk, reset, sin,
 							  output logic [N-1:0] q);
