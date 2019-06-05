@@ -4,9 +4,9 @@
 
 module mux(input logic[3:0] nes, ps2,
 				input logic selector,
-				output logic[3:0] output);
+	   output logic[3:0] outputData);
 				
-		assign output = selector ? nes : ps2;
+		assign outputData = selector ? nes : ps2;
 		
 endmodule
 
