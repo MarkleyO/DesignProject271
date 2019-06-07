@@ -13,9 +13,9 @@ module ps2decoder(input logic[10:0]buttonInput,
 			851: 	buttonOutput = 9'b0_0010_0000;//buttonOutput = 11'b011_0101_0011; //button f 851
 			177: 	buttonOutput = 9'b0_0001_0000;//buttonOutput = 11'b000_1011_0001; //button g 177
 			723: 	buttonOutput = 9'b0_0000_1000;//buttonOutput = 11'b010_1101_0011; //button r 723
-			739: 	buttonOutput = 9'b0_0000_0100;//buttonOutput = 11'b010_1110_0011; //button s 739
+			739: 	buttonOutput = 9'b0_0000_0101;//buttonOutput = 11'b010_1110_0011; //button s 739
 			209: 	buttonOutput = 9'b0_0000_0010;//buttonOutput = 11'b000_1101_0001; //button t 209
-			739: 	buttonOutput = 9'b0_0000_0001;//buttonOutput = 11'b010_1110_0011; //button w 739
+			739: 	buttonOutput = 9'b0_0000_0101;//buttonOutput = 11'b010_1110_0011; //button w 739
 			default: buttonOutput = 9'b0_0000_0000;//buttonOutput = 11'b000_0000_0000; // 0
 			
 		endcase
