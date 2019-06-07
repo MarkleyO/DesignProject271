@@ -1,1 +1,3 @@
-Hello this is a test I will delete later
+Hello,
+
+This is a folder where screenshots for the CSV files on the PS2 Keyboard. Feel free to add more. 
